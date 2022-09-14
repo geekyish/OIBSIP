@@ -1,60 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-decoration: underline;
+  }
+
 body{   
-    background-image: url("bg.jpg");
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    text-align: center;
-}
-
-button{
-    background-color: lavender;
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color:rgb(255, 0, 0);
-    font-weight: bold;
-    width: 70px;
-    margin-bottom: 5px;
-    font-size: 20px;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 200ms ease;
-}
-
-button:hover{
-    color: black;
-    opacity: 1;
-    transform: scale(1.1);
-}
-
-.container{
-    padding-top: 140px;
-    display: grid;
-    place-items: center;
-}
-
-.calculator{
-    position: relative;
-    height: auto;
-    width: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 30px rgb(255, 255, 255);
-
-}
-#display{
+    padding-right: 220px;
+    background-color: black;
     color: white;
-    margin: 0 10px;
-    height: 150px;
-    width:auto;
-    max-width:270px;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    font-size: 30px;
-    margin-bottom: 20px;
-    overflow-x: scroll;
+    justify-content: center;
+    font-family: 'Poppins';
+    align-items: center;
 }
-#display::-webkit-scrollbar{
+.main{
+    margin-top: 80px;
+    width: 70vw;
+    height: auto;
+}
+.title{
+    color: rgb(255, 94, 0);
+    font-size: 50px;
+    margin: 20px 0px;
+    text-align: center;
+    padding-left: 300px ;
+}
+img{
+    border-radius: 50%;
+    max-width: 400px;
+    margin-left: 170px;
+
+    
+  }
+
+ul li{
+    padding: 10px 0;
+    margin-left: 170px;
+}
+
+a{
     display: block;
-    height: 3px;
+    color: white;
+    margin-left: 170px;
 }
+  .main >p{
+    padding-left: 400px ;
+    margin-bottom: 30px;
+  }
+  .main > h2{
+    padding-left: 800px ;
+  }
+
+  .center {
+    padding-left: 300px ;
+  }
+h4{
+    margin-left: 170px;
+}
+.container{
+    margin-left: 170px;
+}
+
+
+
